@@ -10,11 +10,17 @@
 
 @background:            #fff;
 @background-content:    @background;
+@background-header:     #000;
+@background-footer:     @background-header;
+@header-title-color:    #fff;
 @text-color:            #333;
 @text-color-link:       #12c;
 @content-width:         700px;
+@content-padding:       none;
 @header-width:          @content-width;
 @footer-width:          @content-width;
+@border-color:          @background;
+@divider-color:         #ddd;
 
 // Starting the style sheet
 b, center {
@@ -50,7 +56,6 @@ p {
 }
 img, a img {
   padding: 5px;
-  border: medium none;
 }
 #wrapper {
   margin: 0 auto;
@@ -73,24 +78,23 @@ img, a img {
   background: #113644;
 }
 #header {
-  overflow: hidden;
-  width: @header-width;
-  margin: 0 auto;
-}
-#header-title {
-  -moz-background-clip: border;
-  -moz-background-inline-policy: continuous;
-  -moz-background-origin: padding;
-  background: #596852 none repeat scroll 0 0;
-  border-bottom: 1px solid #424f3c;
-  border-top: 1px solid #424f3c;
-  margin: 0px auto;
-  overflow: hidden;
-  width: @header-width;
-}
-#header img {
-  margin: 0;
-  padding: 0;
+    overflow: hidden;
+    width: @header-width;
+    margin: 0 auto;
+    &-title {
+        background: @background-header none repeat scroll 0 0;
+        margin: 0px auto;
+        overflow: hidden;
+        width: @header-width;
+        a {
+            color:  @header-title-color;
+        }
+    }
+    img {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
 }
 #site-title {
   margin: 0px 0 0 15px;
@@ -106,9 +110,9 @@ img, a img {
 }
 #content {
   overflow: hidden;
-  padding: 20px 20px 0px 20px;
+  padding: @content-padding;
   background: @background-content;
-  border: 1px solid #e7e7e7;
+  border: 1px solid @border-color;
 }
 .byline {
   font-size: 11px;
@@ -116,7 +120,7 @@ img, a img {
   padding: 1px 0 4px 0;
 }
 .post {
-  border-bottom: 1px solid #E2E2E2;
+  border-bottom: 1px solid @divider-color;
 }
 .tweet_post {
   font-weight: bold;
@@ -143,8 +147,7 @@ img, a img {
   overflow: hidden;
   width: @footer-width;
   color: #aaa;
-  background: #596852;
-  border: 1px solid #3d4f43;
+  background: @background-footer;
   margin: auto;
 }
 #footer-text {

@@ -40,7 +40,6 @@ p {
 }
 img, a img {
   padding: 5px;
-  border: medium none;
 }
 #wrapper {
   margin: 0 auto;
@@ -68,19 +67,18 @@ img, a img {
   margin: 0 auto;
 }
 #header-title {
-  -moz-background-clip: border;
-  -moz-background-inline-policy: continuous;
-  -moz-background-origin: padding;
-  background: #596852 none repeat scroll 0 0;
-  border-bottom: 1px solid #424f3c;
-  border-top: 1px solid #424f3c;
+  background: #000000 none repeat scroll 0 0;
   margin: 0px auto;
   overflow: hidden;
   width: 700px;
 }
+#header-title a {
+  color: #ffffff;
+}
 #header img {
   margin: 0;
   padding: 0;
+  border: none;
 }
 #site-title {
   margin: 0px 0 0 15px;
@@ -96,9 +94,9 @@ img, a img {
 }
 #content {
   overflow: hidden;
-  padding: 20px 20px 0px 20px;
+  padding: none;
   background: #ffffff;
-  border: 1px solid #e7e7e7;
+  border: 1px solid #ffffff;
 }
 .byline {
   font-size: 11px;
@@ -106,7 +104,7 @@ img, a img {
   padding: 1px 0 4px 0;
 }
 .post {
-  border-bottom: 1px solid #E2E2E2;
+  border-bottom: 1px solid #dddddd;
 }
 .tweet_post {
   font-weight: bold;
@@ -133,8 +131,7 @@ img, a img {
   overflow: hidden;
   width: 700px;
   color: #aaa;
-  background: #596852;
-  border: 1px solid #3d4f43;
+  background: #000000;
   margin: auto;
 }
 #footer-text {
