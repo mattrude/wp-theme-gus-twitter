@@ -7,6 +7,16 @@
  * Version: 2.0
  * Tags: Widgets, Avatars
  */
+
+@background:            #fff;
+@background-content:    @background;
+@text-color:            #333;
+@text-color-link:       #12c;
+@content-width:         700px;
+@header-width:          @content-width;
+@footer-width:          @content-width;
+
+// Starting the style sheet
 b, center {
   margin: 0;
   padding: 0;
@@ -23,13 +33,13 @@ a {
   cursor: pointer;
 }
 body {
-  color: #333333;
-  background: #ffffff;
+  color: @text-color;
+  background: @background;
   margin: 8px;
   display: block;
 }
 a:link, a:visited {
-  color: #1122cc;
+  color: @text-color-link;
   text-decoration: none;
 }
 a:hover, a:active {
@@ -64,7 +74,7 @@ img, a img {
 }
 #header {
   overflow: hidden;
-  width: 700px;
+  width: @header-width;
   margin: 0 auto;
 }
 #header-title {
@@ -76,7 +86,7 @@ img, a img {
   border-top: 1px solid #424f3c;
   margin: 0px auto;
   overflow: hidden;
-  width: 700px;
+  width: @header-width;
 }
 #header img {
   margin: 0;
@@ -88,16 +98,16 @@ img, a img {
 }
 #container {
   overflow: hidden;
-  width: 700px;
+  width: @content-width;
   margin: 20px auto;
 }
 #container a {
-  color: #1122cc;
+  color: @text-color-link;
 }
 #content {
   overflow: hidden;
   padding: 20px 20px 0px 20px;
-  background: #ffffff;
+  background: @background-content;
   border: 1px solid #e7e7e7;
 }
 .byline {
@@ -131,7 +141,7 @@ img, a img {
 }
 #footer-container {
   overflow: hidden;
-  width: 700px;
+  width: @footer-width;
   color: #aaa;
   background: #596852;
   border: 1px solid #3d4f43;
