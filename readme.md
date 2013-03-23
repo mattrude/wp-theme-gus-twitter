@@ -1,9 +1,11 @@
 Wordpress Theme Gus Twitter
 -----------------------------
 
-This is a small theme built to display a Twitter archive, set to match the [Gus](https://github.com/mattrude/wp-theme-gus/) theme.
+This is a small theme built to display a Twitter archive, built to match the [Gus](https://github.com/mattrude/wp-theme-gus/) theme.
 
 This theme expects the [Twitter Tools](http://wordpress.org/extend/plugins/twitter-tools/) plugin to be installed and working, to import the tweets into WordPress.
+
+This theme is a fork of [Milly Twitter](https://github.com/mattrude/wp-theme-milly-twitter) theme.
 
 License
 -------
