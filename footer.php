@@ -3,7 +3,9 @@
  * The footer template for the gus twitter theme
  * @package Gus Twitter
  */
-
+/**
+ * Starting the footer
+ */
 ?>
 </div> 
 <div id="footer-container">
