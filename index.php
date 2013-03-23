@@ -1,4 +1,10 @@
-<?php get_header(); ?>
+<?php 
+/**
+ * The main index file for the Gus Theme
+ * @package Gus Twitter
+ */
+
+get_header(); ?>
 
 <div id='content'>
   <?php while (have_posts()) : the_post();
