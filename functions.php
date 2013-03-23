@@ -35,6 +35,7 @@ define("IMAGE_FILETYPE", "(bmp|gif|jpeg|jpg|png)", true);
  * theme. This will allow the lightbox javascript to display the full size 
  * imags on the site.
  *
+ * @param string $string The current link html from WordPress
  * @since 0.1
  * @package Gus Twitter
  */
