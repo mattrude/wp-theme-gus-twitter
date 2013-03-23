@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php 
+/**
+ * The 404 error page
+ * @package Gus Twitter
+ */
+get_header(); ?>
 
 <div id="content">
   <div class="page">
