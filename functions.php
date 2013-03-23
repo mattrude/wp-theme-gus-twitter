@@ -1,14 +1,22 @@
 <?php
- 
-/********************************************************************************
+/**
+ * The main function file for the Gus Twitter Theme
+ * @package Gus Twitter
+ */
+/**
  * Add Automatic Feed Links to theme for WordPress 3.0
+ *
+ * @since 0.1
+ * @package Gus Twitter
  */
 add_theme_support( 'automatic-feed-links' );
 
-/********************************************************************************
+/**
  * Your changeable header business starts here
+ *
+ * @since 0.1
+ * @package Gus Twitter
  */
-
 $custom_header_support = array(
     'default-image' => '%s/images/header-cabin.jpg',
     'default-text-color' => '000',
@@ -19,6 +27,17 @@ $custom_header_support = array(
 add_theme_support( 'custom-header', $custom_header_support );
 
 define("IMAGE_FILETYPE", "(bmp|gif|jpeg|jpg|png)", true);
+
+/**
+ * Add rel='lightbox' to all imaages
+ *
+ * This function will add rel='lightbox' to all images links in the
+ * theme. This will allow the lightbox javascript to display the full size 
+ * imags on the site.
+ *
+ * @since 0.1
+ * @package Gus Twitter
+ */
 
 function addlightboxrel_replace($string) {
     $pattern = '/<a(.*?)href="(.*?).(bmp|gif|jpeg|jpg|png)"(.*?)>/i';
