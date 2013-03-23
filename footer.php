@@ -1,3 +1,10 @@
+<?php
+/**
+ * The footer template for the gus twitter theme
+ * @package Gus Twitter
+ */
+
+?>
 </div> 
 <div id="footer-container">
 		<div id="footer-text">
