@@ -29,7 +29,7 @@ add_theme_support( 'custom-header', $custom_header_support );
 define("IMAGE_FILETYPE", "(bmp|gif|jpeg|jpg|png)", true);
 
 /**
- * Add rel='lightbox' to all imaages
+ * Add rel='lightbox' to all images
  *
  * This function will add rel='lightbox' to all images links in the
  * theme. This will allow the lightbox javascript to display the full size 
@@ -39,7 +39,6 @@ define("IMAGE_FILETYPE", "(bmp|gif|jpeg|jpg|png)", true);
  * @since 0.1
  * @package Gus Twitter
  */
-
 function addlightboxrel_replace($string) {
     $pattern = '/<a(.*?)href="(.*?).(bmp|gif|jpeg|jpg|png)"(.*?)>/i';
     $replacement = '<a$1href="$2.$3" rel=\'lightbox\'$4>';
