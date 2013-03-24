@@ -6,6 +6,7 @@
 /**
  * Starting the footer
  */
+namespace;
 ?>
 </div> 
 <div id="footer-container">
