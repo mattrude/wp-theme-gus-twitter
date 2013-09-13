@@ -22,7 +22,7 @@
 				$twitterid ='';
 			}
 
-			?>Posted to <a href="https://twitter.com/mdrude/status/<?php echo $twitterid; ?>" rel="nofollow">Twitter</a> by <a href="http://twitter.com/mdrude/" rel="nofollow">Matt Rude</a> on <?php
+			?>Posted to <a href="https://twitter.com/mdrude/status/<?php echo $twitterid; ?>" rel="nofollow">Twitter</a> by <a href="http://twitter.com/mdrude" rel="nofollow">Matt Rude</a> on <?php
 			$permlink = get_permalink( $post->ID );
 			if ( is_home() ) { 
 				echo "<a href='$permlink'>";
