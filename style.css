@@ -318,3 +318,11 @@ p {
 .lb-data .lb-close:hover {
   cursor: pointer;
 }
+/* Hides navigation links and site footer when infinite scroll is active */
+.infinite-scroll #navigation, .infinite-scroll.neverending #footer {
+  display: none;
+}
+/* Shows the footer again in case all posts have been loaded */
+.infinity-end.neverending #footer {
+  display: block;
+}
