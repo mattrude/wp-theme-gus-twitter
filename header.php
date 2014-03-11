@@ -21,21 +21,14 @@ namespace TWITTER;
     ?><title><?php wp_title(' - ', true, 'right'); ?><?php bloginfo('name'); ?></title><?php
   } ?>
   <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-  <script src="/wp-content/themes/gus-twitter/js/jquery-1.7.2.min.js"></script>
-  <script src="/wp-content/themes/gus-twitter/js/lightbox.js"></script>
   <?php wp_head(); ?>
 </head>
 
 <body>
-  <div id="wrapper" >
-    <div id="header-title">
-      <div id="site-title">
-        <a class="standard" href="<?php bloginfo('url'); ?>"><b><?php bloginfo('description'); ?></b></a>
-      </div>
-    </div>
-<!--    <div id="header">
-      <img src="<?php header_image(); ?>" width="<?php echo HEADER_IMAGE_WIDTH; ?>" height="<?php echo HEADER_IMAGE_HEIGHT; ?>" alt="" />
-    </div>-->
-  <div id="container">
-<?php
-?>
+    <div id="wrapper" >
+        <div id="header-title">
+            <div id="site-title">
+                <a class="standard" href="<?php bloginfo('url'); ?>"><b><?php bloginfo('description'); ?></b></a>
+            </div>
+        </div>
+        <div id="container">

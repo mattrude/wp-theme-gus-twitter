@@ -26,27 +26,6 @@ $custom_header_support = array(
 );
 add_theme_support( 'custom-header', $custom_header_support );
 
-define("IMAGE_FILETYPE", "(bmp|gif|jpeg|jpg|png)", true);
-
-/**
- * Add rel='lightbox' to all images
- *
- * This function will add rel='lightbox' to all images links in the
- * theme. This will allow the lightbox javascript to display the full size 
- * imags on the site.
- *
- * @param string $string The current link html from WordPress
- * @since 0.1
- * @package Gus Twitter
- */
-function addlightboxrel_replace($string) {
-    $pattern = '/<a(.*?)href="(.*?).(bmp|gif|jpeg|jpg|png)"(.*?)>/i';
-    $replacement = '<a$1href="$2.$3" rel=\'lightbox\'$4>';
-    return preg_replace($pattern, $replacement, $string);
-}
-
-add_filter('the_content', 'addlightboxrel_replace');
-
 /**
  * Add theme support for infinite scroll
  *
