@@ -3,13 +3,6 @@
  * The main function file for the Gus Twitter Theme
  * @package Gus Twitter
  */
-/**
- * Add Automatic Feed Links to theme for WordPress 3.0
- *
- * @since 0.1
- * @package Gus Twitter
- */
-add_theme_support( 'automatic-feed-links' );
 
 /**
  * Add theme support for infinite scroll
