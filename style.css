@@ -54,10 +54,6 @@ p {
   width: 100px;
   text-align: center;
 }
-.button:hover {
-  cursor: pointer;
-  background: #113644;
-}
 #header {
   overflow: hidden;
   width: 600px;
@@ -127,7 +123,7 @@ p {
 #footer-container {
   overflow: hidden;
   width: 600px;
-  color: #aaa;
+  color: #aaaaaa;
   background: #000000;
   margin: auto;
 }

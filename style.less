@@ -12,8 +12,9 @@
 @background-content:    @background;
 @background-header:     #000;
 @background-footer:     @background-header;
-@header-title-color:    #fff;
+@header-title-color:    @background;
 @text-color:            #333;
+@footer-text-color:	#aaa;
 @text-color-link:       #12c;
 @content-width:         600px;
 @content-padding:       none;
@@ -69,10 +70,6 @@ p {
   margin: 0 auto;
   width: 100px;
   text-align: center;
-}
-.button:hover {
-  cursor: pointer;
-  background: #113644;
 }
 #header {
     overflow: hidden;
@@ -143,7 +140,7 @@ p {
 #footer-container {
   overflow: hidden;
   width: @footer-width;
-  color: #aaa;
+  color: @footer-text-color;
   background: @background-footer;
   margin: auto;
 }
