@@ -1,14 +1,36 @@
-Wordpress Theme Gus Twitter
------------------------------
+# Wordpress Theme Gus Twitter
 
-This is a small theme built to display a Twitter archive, built to match the [Gus](https://github.com/mattrude/wp-theme-gus/) theme.
+This is a small theme built to display a Twitter archive, designed to match the [Gus](https://github.com/mattrude/wp-theme-gus/) theme.
 
 This theme expects the [Twitter Tools](http://wordpress.org/extend/plugins/twitter-tools/) plugin to be installed and working, to import the tweets into WordPress.
 
-This theme is a fork of [Milly Twitter](https://github.com/mattrude/wp-theme-milly-twitter) theme.
+The *Gus Twitter* theme is a fork of the [Milly Twitter](https://github.com/mattrude/wp-theme-milly-twitter) theme.
 
-License
--------
+## Downloading / Installing
+
+This is a git repoistory, there is several ways to download and use it's content.
+
+### Prerequisites
+
+* [WordPress](http://wordpress.org) 3.4+
+
+### Downloading via a web browser
+
+Download the zip version to be uploaded into your WordPress site.
+
+* [Development version](https://github.com/mattrude/wp-theme-gus-twitter/zipball/master)
+
+### Downloading via git
+
+You may also download the theme directly via git:
+
+    git clone https://github.com/mattrude/wp-theme-gus-twitter.git gus-twitter
+
+* This project's primary loaction is on github at: [https://github.com/mattrude/wp-theme-gus-twitter/](https://github.com/mattrude/wp-theme-gus-twitter/)
+* The project is also mirrored at: [git.mattrude.com](http://git.mattrude.com/summary/WordPress%2FThemes%2Fgus-twitter.git)
+
+## License
+
 Milly Twitter is free software; you may redistribute it and/or modify it under the terms of the GNU General Public License version 2 as published by the Free Software Foundation (http://www.fsf.org/).
 
                   GNU GENERAL PUBLIC LICENSE
