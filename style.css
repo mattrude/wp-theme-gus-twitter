@@ -1,12 +1,13 @@
 /*
- * Theme Name: Gus Twiter Archive
+ * Theme Name: Gus Twitter Archive
  * Theme URI: https://github.com/mattrude/wp-theme-gus-twitter
  * Description: This is the companion theme to the wp-theme-gus theme that is powering http://mattrude.com. This theme provides a dedicated clean archive of twitter activity from a single twitter account.
  * Author: Matt Rude
  * Author URI: http://mattrude.com
  * Version: 2.0
  */
-b, center {
+b,
+center {
   margin: 0;
   padding: 0;
   vertical-align: baseline;
@@ -27,11 +28,13 @@ body {
   margin: 8px;
   display: block;
 }
-a:link, a:visited {
+a:link,
+a:visited {
   color: #1122cc;
   text-decoration: none;
 }
-a:hover, a:active {
+a:hover,
+a:active {
   text-decoration: underline;
 }
 p {
@@ -146,7 +149,8 @@ p {
   line-height: 16px;
 }
 /* Hides navigation links and site footer when infinite scroll is active */
-.infinite-scroll #navigation, .infinite-scroll.neverending #footer {
+.infinite-scroll #navigation,
+.infinite-scroll.neverending #footer {
   display: none;
 }
 /* Shows the footer again in case all posts have been loaded */
